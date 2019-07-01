@@ -73,7 +73,13 @@ You should see heroku `https://git.heroku.com/<RANDOMLY_GENERATED_NAME_OF_YOUR_A
 
 ## Deploying to Heroku
 
-You can deploy to heroku by running:
+Add the `mars/create-react-app-buildpack` to your heroku project by typing:
+
+```
+heroku buildpacks:set mars/create-react-app-buildpack
+```
+
+You can then deploy to heroku by running:
 
 ```
 git push heroku master
