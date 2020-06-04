@@ -14,6 +14,19 @@ import { auth, createUserProfileDocument } from './firebase/firebase.utils';
 
 import CurrentUserContext from './contexts/current-user/current-user.context';
 
+
+
+
+export default App () {
+    return (
+        <div>
+            
+        </div>
+    )
+}
+
+
+
 class App extends React.Component {
   constructor() {
     super();
